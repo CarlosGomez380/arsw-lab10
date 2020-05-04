@@ -1,0 +1,480 @@
+{
+	"info": {
+		"_postman_id": "5036e14e-669c-41cf-9c0e-81d12cd87f6d",
+		"name": "fibonacci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "serie 100000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":100000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 90000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":90000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 80000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":80000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 70000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":70000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 60000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":60000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 50000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":50000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 40000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":40000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 30000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":30000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 20000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":20000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "serie 10000",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b3be7607-0b33-42a7-8ee8-44b9be62e9da",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "93910a81-ca8f-4d70-9518-de0cff2bacb1",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nth\":10000\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Fibonacci",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
